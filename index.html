@@ -6,6 +6,20 @@
   </head>
   <body>
     <script type="text/javascript">
+     // indici    0         1          2        3            4
+     var arr = ['Rossi', 'Bianchi', 'Verdi', 'Aiello', 'Gennarino'];  //lenght 5
+     var cognome = prompt('Inserisci il tuo cognome:');
+     arr.push(cognome);
+     var index = 0;
+     arr.sort();
+     for (var i = 0; i < arr.length; i++) {
+       index = i + 1;
+       console.log(index, arr[i]);
+
+     }
+
+
+
 
     </script>
 
